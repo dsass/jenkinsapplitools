@@ -24,20 +24,20 @@ public class HelloWorld
         Eyes eyes = new Eyes();
         eyes.setApiKey(System.getenv("APPLITOOLS_ACCESS_KEY"));
 
-        //Set only once per Jenkins job
-        BatchInfo mybatch = new BatchInfo("My Jenkins test");
-        String id = System.getenv("APPLITOOLS_BATCH_ID");
-        if (id != null) {
-            mybatch.setId(id);
-        } else {
-            throw new Exception("ID IS NULL");
-        }
-        //End of - Set only once per Jenkins job
-        eyes.setBatch(mybatch);
+
 
         try{
 //            eyes.setMatchTimeout(1000);
-
+            //Set only once per Jenkins job
+            BatchInfo mybatch = new BatchInfo("My Jenkins test");
+            String id = System.getenv("APPLITOOLS_BATCH_ID");
+            if (id != null) {
+                mybatch.setId(id);
+            } else {
+                throw new Exception("ID IS NULL");
+            }
+            //End of - Set only once per Jenkins job
+            eyes.setBatch(mybatch);
             // Start the test and set the browser's viewport size to 800x600.
             eyes.open(driver, "Dynamic Loading", "Testing Match Timeout2",
                     new RectangleSize(800, 600));
