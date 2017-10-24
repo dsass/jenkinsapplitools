@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * Hello world!
@@ -18,7 +19,7 @@ public class HelloWorld
     public void helloTest() throws Exception {
 
         // Open a Chrome browser.
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new FirefoxDriver();
 
         // Initialize the eyes SDK and set your private API key.
         Eyes eyes = new Eyes();
