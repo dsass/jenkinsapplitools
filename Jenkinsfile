@@ -12,13 +12,7 @@ pipeline {
                 sh 'ls'
             }
         }
-        node {
-            stage('Applitools build') {
-                Applitools() {
-                    sh 'mvn clean test -Dtest=HelloWorld'
-                }
-            }
-        }
+        
 
     }
 }
