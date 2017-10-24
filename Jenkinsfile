@@ -7,6 +7,11 @@ pipeline {
     }
 
     stages {
+        stage('Build') {
+            steps {
+                sh 'ls'
+            }
+        }
         node {
             stage('Applitools build') {
                 Applitools() {
