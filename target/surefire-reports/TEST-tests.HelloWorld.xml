@@ -1,106 +1,101 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="tests.HelloWorld" time="1.734" errors="1" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.HelloWorld" time="22.537" tests="1" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.144-b01"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/davidsasson/Documents/GitHub/jenkinstest"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="teamcity.agent.dotnet.build_id" value="9"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="test" value="HelloWorld"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/davidsasson/Documents/GitHub/jenkinstest"/>
-    <property name="java.runtime.version" value="1.8.0_144-b01"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/0f/2172d0xd6s1f9911nvbjchz40000gn/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="teamcity.buildConfName" value="build"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="agent.home.dir" value="/Users/davidsasson/Documents/TeamCity/buildAgent"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/apache-maven-3.5.0/bin/m2.conf"/>
+    <property name="teamcity.build.properties.file" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp/teamcity.build2963883554055184264.properties"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="build.number" value="9"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="agent.name" value="Default Agent"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="teamcity.auth.password" value="v39rhdeuAKZQkSHbxaGF2dUXFUg8KjaH"/>
+    <property name="teamcity.runner.properties.file" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp/teamcity.runner2769316866818708480.properties"/>
+    <property name="agent.ownPort" value="9090"/>
+    <property name="user.name" value="davidsasson"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="teamcity.build.workingDir" value="/Users/davidsasson/Documents/TeamCity/buildAgent/work/2b35ac7e0452d98f"/>
+    <property name="maven.repo.local" value="/Users/davidsasson/.m2/repository"/>
+    <property name="teamcity.version" value="2017.1.5 (build 47175)"/>
+    <property name="user.language" value="en"/>
+    <property name="teamcity.build.id" value="9"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="classworlds.conf" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp/teamcity.m2.conf"/>
+    <property name="teamcity.maven.watcher.home" value="/Users/davidsasson/Documents/TeamCity/buildAgent/plugins/mavenPlugin/maven-watcher"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="teamcity.buildType.id" value="Applitest_Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/davidsasson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/usr/local/apache-maven-3.5.0/conf"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.12.6"/>
-    <property name="library.jansi.path" value="/usr/local/apache-maven-3.5.0/lib/jansi-native/osx64"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/davidsasson"/>
-    <property name="user.timezone" value="America/Los_Angeles"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="davidsasson"/>
-    <property name="java.class.path" value="/usr/local/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.country" value="US"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=HelloWorld"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_144"/>
-    <property name="java.ext.dirs" value="/Users/davidsasson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/apache-maven-3.5.0"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="teamcity.auth.userId" value="TeamCityBuildId=9"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="teamcity.agent.cpuBenchmark" value="616"/>
+    <property name="user.home" value="/Users/davidsasson"/>
+    <property name="teamcity.configuration.properties.file" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp/teamcity.config7804432030437587317.properties"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.library.path" value="/Users/davidsasson/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="teamcity.projectName" value="Applitest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.home" value="/Users/davidsasson/Documents/TeamCity/buildAgent/tools/maven3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /Users/davidsasson/Documents/Github/jenkinstest/pom.xml -B clean test"/>
+    <property name="java.class.path" value="/Users/davidsasson/Documents/TeamCity/buildAgent/tools/maven3/boot/plexus-classworlds-2.4.jar:"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="agent.work.dir" value="/Users/davidsasson/Documents/TeamCity/buildAgent/work"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.io.tmpdir" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/davidsasson/Documents/TeamCity/buildAgent/work/2b35ac7e0452d98f"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="teamcity.build.checkoutDir" value="/Users/davidsasson/Documents/TeamCity/buildAgent/work/2b35ac7e0452d98f"/>
+    <property name="java.ext.dirs" value="/Users/davidsasson/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="user.dir" value="/Users/davidsasson/Documents/TeamCity/buildAgent/work/2b35ac7e0452d98f"/>
+    <property name="teamcity.build.changedFiles.file" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp/changedFiles7470375278715559158.txt"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="teamcity.tests.recentlyFailedTests.file" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp/testsToRunFirst6859668771035548894.txt"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="teamcity.agent.dotnet.agent_url" value="http://localhost:9090/RPC2"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="com.jetbrains.maven.watcher.report.file" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp/maven-build-info.xml"/>
+    <property name="teamcity.build.tempDir" value="/Users/davidsasson/Documents/TeamCity/buildAgent/temp/buildTmp"/>
   </properties>
-  <testcase classname="tests.HelloWorld" name="helloTest" time="1.734">
-    <error message="ID IS NULL" type="java.lang.Exception">java.lang.Exception: ID IS NULL
-	at tests.HelloWorld.helloTest(HelloWorld.java:37)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-    <system-err>Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 30556
+  <testcase name="helloTest" classname="tests.HelloWorld" time="22.537">
+    <failure message="&apos;Testing Match Timeout2&apos; of &apos;Dynamic Loading&apos;. See details at https://eyes.applitools.com/app/batches/00000251893492502203/00000251893492501968?accountId=O3UYUgfbQkqbdMTEsNWSaw~~" type="com.applitools.eyes.exceptions.TestFailedException">com.applitools.eyes.exceptions.TestFailedException: 'Testing Match Timeout2' of 'Dynamic Loading'. See details at https://eyes.applitools.com/app/batches/00000251893492502203/00000251893492501968?accountId=O3UYUgfbQkqbdMTEsNWSaw~~
+	at com.applitools.eyes.EyesBase.close(EyesBase.java:669)
+	at com.applitools.eyes.EyesBase.close(EyesBase.java:610)
+	at tests.HelloWorld.helloTest(HelloWorld.java:65)
+</failure>
+    <system-err>Starting ChromeDriver 2.32.498537 (cb2f855cbc7b82e20387eaf9a43f6b99b6105061) on port 4785
 Only local connections are allowed.
-Oct 23, 2017 4:36:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 23, 2017 6:24:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>

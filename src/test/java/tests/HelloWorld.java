@@ -29,7 +29,7 @@ public class HelloWorld
         try{
 //            eyes.setMatchTimeout(1000);
             //Set only once per Jenkins job
-            BatchInfo mybatch = new BatchInfo("My Jenkins test");
+            BatchInfo mybatch = new BatchInfo(System.getenv("APPLITOOLS_BATCH_NAME"));
             String id = System.getenv("APPLITOOLS_BATCH_ID");
             if (id != null) {
                 mybatch.setId(id);
