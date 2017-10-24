@@ -9,6 +9,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.io.File;
+
 /**
  * Hello world!
  *
@@ -19,6 +21,8 @@ public class HelloWorld
     public void helloTest() throws Exception {
 
         // Open a Chrome browser.
+        File firefoxPathBinary = new File("/Applications/Firefox.app/Contents/MacOS/firefox-bin");
+        System.setProperty("webdriver.firefox.bin", firefoxPathBinary.getAbsolutePath());
         WebDriver driver = new FirefoxDriver();
 
         // Initialize the eyes SDK and set your private API key.
