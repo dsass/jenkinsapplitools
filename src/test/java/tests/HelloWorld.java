@@ -21,9 +21,7 @@ public class HelloWorld
     public void helloTest() throws Exception {
 
         // Open a Chrome browser.
-        File firefoxPathBinary = new File("/Applications/Firefox.app/Contents/MacOS/firefox-bin");
-        System.setProperty("webdriver.firefox.bin", firefoxPathBinary.getAbsolutePath());
-        WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new ChromeDriver();
 
         // Initialize the eyes SDK and set your private API key.
         Eyes eyes = new Eyes();
@@ -61,10 +59,10 @@ public class HelloWorld
 
             eyes.checkWindow(0,"Loading Now");
             // Visual checkpoint #2.
-            Thread.sleep(5000);
-            eyes.checkWindow(100,"Loaded");
+            //Thread.sleep(5000);
+            //eyes.checkWindow(100,"Loaded");
 
-            eyes.checkWindow("new one");
+            //eyes.checkWindow("new one");
 
             // End the test.
             eyes.close();
