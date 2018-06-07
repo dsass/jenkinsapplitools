@@ -25,7 +25,7 @@ public class JenkinsTest
 
         // Initialize the eyes SDK and set your private API key.
         Eyes eyes = new Eyes();
-        eyes.setApiKey(System.getenv("APPLITOOLS_ACCESS_KEY"));
+        eyes.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
 
 
 
