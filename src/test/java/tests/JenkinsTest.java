@@ -15,7 +15,7 @@ import java.io.File;
  * Hello world!
  *
  */
-public class HelloWorld
+public class JenkinsTest
 {
     @Test
     public void helloTest() throws Exception {
