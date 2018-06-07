@@ -27,7 +27,7 @@ public class JenkinsTest
         Eyes eyes = new Eyes();
         eyes.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
 
-        eyes.setServerUrl(new URI("https://test2eyes.applitools.com"));
+        eyes.setServerUrl("https://test2eyes.applitools.com");
 
         try{
 //            eyes.setMatchTimeout(1000);
